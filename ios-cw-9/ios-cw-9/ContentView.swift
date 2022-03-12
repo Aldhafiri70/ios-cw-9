@@ -51,7 +51,7 @@ struct ContentView: View {
                             grade = "d"}
                         else if(Double(enterGrade) ?? 0) >= 50 {
                             
-                            grade = "f"}
+                            grade = "f"}}
                 Text("لقد حصلت على درجة")
                     .bold()
                     .foregroundColor(Color(#colorLiteral(red: 0.07661154121, green: 0.1822937131, blue: 0.2113724947, alpha: 1)))
@@ -72,3 +72,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
